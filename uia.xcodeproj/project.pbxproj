@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2615EE7F2ACD8788000C893F /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615EE7E2ACD8787000C893F /* NotificationViewController.swift */; };
+		262F8E372ABC201C009EDB7F /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F8E362ABC201C009EDB7F /* CustomNavigationBar.swift */; };
+		262F8E3A2ABC20D9009EDB7F /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262F8E392ABC20D9009EDB7F /* CustomNavigationBar.xib */; };
+		262F8E3C2ABC25FB009EDB7F /* TopNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F8E3B2ABC25FB009EDB7F /* TopNavigationBar.swift */; };
+		262F8E3E2ABC2622009EDB7F /* TopNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262F8E3D2ABC2622009EDB7F /* TopNavigationBar.xib */; };
+		263BDB2E2AB9B94D005A3B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BDB2D2AB9B94D005A3B52 /* AppDelegate.swift */; };
+		263BDB322AB9B94D005A3B52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BDB312AB9B94D005A3B52 /* ViewController.swift */; };
+		263BDB352AB9B94D005A3B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB332AB9B94D005A3B52 /* Main.storyboard */; };
+		263BDB382AB9B94D005A3B52 /* uia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 263BDB362AB9B94D005A3B52 /* uia.xcdatamodeld */; };
+		263BDB3A2AB9B950005A3B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB392AB9B950005A3B52 /* Assets.xcassets */; };
+		263BDB3D2AB9B950005A3B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB3B2AB9B950005A3B52 /* LaunchScreen.storyboard */; };
+		263BDB5E2AB9BCEE005A3B52 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BDB5D2AB9BCEE005A3B52 /* LaunchScreenController.swift */; };
+		263BDB602AB9BD35005A3B52 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BDB5F2AB9BD35005A3B52 /* LoginController.swift */; };
+		263BDB622AB9BD64005A3B52 /* Micros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BDB612AB9BD64005A3B52 /* Micros.swift */; };
+		263BDB662AB9C3C2005A3B52 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BDB652AB9C3C2005A3B52 /* HomeVC.swift */; };
+		263BDB9D2ABABEA7005A3B52 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB902ABABEA7005A3B52 /* Roboto-Medium.ttf */; };
+		263BDB9E2ABABEA7005A3B52 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB912ABABEA7005A3B52 /* Roboto-Light.ttf */; };
+		263BDB9F2ABABEA7005A3B52 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB922ABABEA7005A3B52 /* Roboto-Regular.ttf */; };
+		263BDBA02ABABEA7005A3B52 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB932ABABEA7005A3B52 /* Roboto-MediumItalic.ttf */; };
+		263BDBA12ABABEA7005A3B52 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB942ABABEA7005A3B52 /* Roboto-ThinItalic.ttf */; };
+		263BDBA22ABABEA7005A3B52 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB952ABABEA7005A3B52 /* Roboto-BoldItalic.ttf */; };
+		263BDBA32ABABEA7005A3B52 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB962ABABEA7005A3B52 /* Roboto-LightItalic.ttf */; };
+		263BDBA42ABABEA7005A3B52 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB972ABABEA7005A3B52 /* Roboto-Italic.ttf */; };
+		263BDBA52ABABEA7005A3B52 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB982ABABEA7005A3B52 /* LICENSE.txt */; };
+		263BDBA62ABABEA7005A3B52 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB992ABABEA7005A3B52 /* Roboto-BlackItalic.ttf */; };
+		263BDBA72ABABEA7005A3B52 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB9A2ABABEA7005A3B52 /* Roboto-Bold.ttf */; };
+		263BDBA82ABABEA7005A3B52 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB9B2ABABEA7005A3B52 /* Roboto-Thin.ttf */; };
+		263BDBA92ABABEA7005A3B52 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263BDB9C2ABABEA7005A3B52 /* Roboto-Black.ttf */; };
+		263BDBAB2ABAEC9C005A3B52 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263BDBAA2ABAEC9C005A3B52 /* SignUpVC.swift */; };
+		2644E9AD2ABD51B7005E52FB /* DropdownTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2644E9AB2ABD51B7005E52FB /* DropdownTVC.swift */; };
+		2644E9AE2ABD51B7005E52FB /* DropdownTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2644E9AC2ABD51B7005E52FB /* DropdownTVC.xib */; };
+		2645AF582AD5212E00240ABB /* ReportTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645AF562AD5212E00240ABB /* ReportTVC.swift */; };
+		2645AF592AD5212E00240ABB /* ReportTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2645AF572AD5212E00240ABB /* ReportTVC.xib */; };
+		2645AF5C2AD55A1400240ABB /* RejectButtonTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645AF5A2AD55A1400240ABB /* RejectButtonTVC.swift */; };
+		2645AF5D2AD55A1400240ABB /* RejectButtonTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2645AF5B2AD55A1400240ABB /* RejectButtonTVC.xib */; };
+		2645AF5F2AD5632100240ABB /* MyProfileStaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645AF5E2AD5632100240ABB /* MyProfileStaticData.swift */; };
+		265A69FB2AC4403D00D3536F /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A69FA2AC4403D00D3536F /* DropDown.swift */; };
+		267033D12ABC50F500319938 /* MyProfileTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267033CF2ABC50F500319938 /* MyProfileTVC.swift */; };
+		267033DD2ABC64C700319938 /* TextFieldTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267033DB2ABC64C700319938 /* TextFieldTVC.swift */; };
+		267033DE2ABC64C700319938 /* TextFieldTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267033DC2ABC64C700319938 /* TextFieldTVC.xib */; };
+		268EA4212ABCAF8700A005C0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268EA4202ABCAF8700A005C0 /* Extension.swift */; };
+		268EA4232ABCB5B800A005C0 /* MyProfileTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268EA4222ABCB5B800A005C0 /* MyProfileTVC.xib */; };
+		269621432ABB0F7200407C52 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269621422ABB0F7200407C52 /* ForgotPasswordVC.swift */; };
+		269757722AC1A0EA00B086BE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269757712AC1A0EA00B086BE /* SettingsViewController.swift */; };
+		269B39A22AD3C67A00A2479A /* ScanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B39A12AD3C67A00A2479A /* ScanListViewController.swift */; };
+		269B39A62AD3C97B00A2479A /* ScanListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B39A42AD3C97B00A2479A /* ScanListTableViewCell.swift */; };
+		269B39A72AD3C97B00A2479A /* ScanListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269B39A52AD3C97B00A2479A /* ScanListTableViewCell.xib */; };
+		26A281FA2AD4154700CEA181 /* DropdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A281F82AD4154700CEA181 /* DropdownViewController.swift */; };
+		26A281FB2AD4154700CEA181 /* DropdownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A281F92AD4154700CEA181 /* DropdownViewController.xib */; };
+		26A2FCE82AC159EC00D5B01B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2FCE72AC159EC00D5B01B /* MainTabBarController.swift */; };
+		26A2FCEA2AC16A1900D5B01B /* QrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2FCE92AC16A1900D5B01B /* QrViewController.swift */; };
+		26A2FCEC2AC16F1D00D5B01B /* InspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2FCEB2AC16F1D00D5B01B /* InspectionViewController.swift */; };
+		26A4D13D2ACFD51E008E70B1 /* InspectionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4D13B2ACFD51E008E70B1 /* InspectionTVC.swift */; };
+		26A4D13E2ACFD51E008E70B1 /* InspectionTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A4D13C2ACFD51E008E70B1 /* InspectionTVC.xib */; };
+		26A4D1422AD023AA008E70B1 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4D1402AD023AA008E70B1 /* LoaderViewController.swift */; };
+		26A4D1432AD023AA008E70B1 /* LoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A4D1412AD023AA008E70B1 /* LoaderViewController.xib */; };
+		26A4D1462AD0246C008E70B1 /* tools-7049_256.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26A4D1452AD0246C008E70B1 /* tools-7049_256.gif */; };
+		26A8CF1C2ACC2CD4005511BE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A8CF1B2ACC2CD4005511BE /* NetworkManager.swift */; };
+		26C11FA52AC3E67C008B5F55 /* FilterListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C11FA32AC3E67C008B5F55 /* FilterListTableViewCell.swift */; };
+		26C11FA62AC3E67C008B5F55 /* FilterListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26C11FA42AC3E67C008B5F55 /* FilterListTableViewCell.xib */; };
+		26C902CB2ABD6513000E2C19 /* TextViewTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C902C92ABD6513000E2C19 /* TextViewTVC.swift */; };
+		26C902CC2ABD6513000E2C19 /* TextViewTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26C902CA2ABD6513000E2C19 /* TextViewTVC.xib */; };
+		26C902CF2ABD6764000E2C19 /* ButtonTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C902CD2ABD6764000E2C19 /* ButtonTVC.swift */; };
+		26C902D02ABD6764000E2C19 /* ButtonTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26C902CE2ABD6764000E2C19 /* ButtonTVC.xib */; };
+		26C902D32ABD696A000E2C19 /* PasswordTextFieldTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C902D12ABD696A000E2C19 /* PasswordTextFieldTVC.swift */; };
+		26C902D42ABD696A000E2C19 /* PasswordTextFieldTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26C902D22ABD696A000E2C19 /* PasswordTextFieldTVC.xib */; };
+		26F2D6AB2ABC4D8F00EAC6E8 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F2D6AA2ABC4D8F00EAC6E8 /* MyProfileVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2615EE7E2ACD8787000C893F /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		262F8E362ABC201C009EDB7F /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		262F8E392ABC20D9009EDB7F /* CustomNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		262F8E3B2ABC25FB009EDB7F /* TopNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBar.swift; sourceTree = "<group>"; };
+		262F8E3D2ABC2622009EDB7F /* TopNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopNavigationBar.xib; sourceTree = "<group>"; };
+		263BDB2A2AB9B94D005A3B52 /* uia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263BDB2D2AB9B94D005A3B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		263BDB312AB9B94D005A3B52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		263BDB342AB9B94D005A3B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		263BDB372AB9B94D005A3B52 /* uia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = uia.xcdatamodel; sourceTree = "<group>"; };
+		263BDB392AB9B950005A3B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		263BDB3C2AB9B950005A3B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		263BDB3E2AB9B950005A3B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263BDB5D2AB9BCEE005A3B52 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
+		263BDB5F2AB9BD35005A3B52 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		263BDB612AB9BD64005A3B52 /* Micros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micros.swift; sourceTree = "<group>"; };
+		263BDB652AB9C3C2005A3B52 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		263BDB902ABABEA7005A3B52 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		263BDB912ABABEA7005A3B52 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		263BDB922ABABEA7005A3B52 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		263BDB932ABABEA7005A3B52 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		263BDB942ABABEA7005A3B52 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		263BDB952ABABEA7005A3B52 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		263BDB962ABABEA7005A3B52 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		263BDB972ABABEA7005A3B52 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		263BDB982ABABEA7005A3B52 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		263BDB992ABABEA7005A3B52 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		263BDB9A2ABABEA7005A3B52 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		263BDB9B2ABABEA7005A3B52 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		263BDB9C2ABABEA7005A3B52 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		263BDBAA2ABAEC9C005A3B52 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		2644E9AB2ABD51B7005E52FB /* DropdownTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownTVC.swift; sourceTree = "<group>"; };
+		2644E9AC2ABD51B7005E52FB /* DropdownTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropdownTVC.xib; sourceTree = "<group>"; };
+		2645AF562AD5212E00240ABB /* ReportTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTVC.swift; sourceTree = "<group>"; };
+		2645AF572AD5212E00240ABB /* ReportTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportTVC.xib; sourceTree = "<group>"; };
+		2645AF5A2AD55A1400240ABB /* RejectButtonTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectButtonTVC.swift; sourceTree = "<group>"; };
+		2645AF5B2AD55A1400240ABB /* RejectButtonTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RejectButtonTVC.xib; sourceTree = "<group>"; };
+		2645AF5E2AD5632100240ABB /* MyProfileStaticData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileStaticData.swift; sourceTree = "<group>"; };
+		265A69FA2AC4403D00D3536F /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		267033CF2ABC50F500319938 /* MyProfileTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileTVC.swift; sourceTree = "<group>"; };
+		267033DB2ABC64C700319938 /* TextFieldTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTVC.swift; sourceTree = "<group>"; };
+		267033DC2ABC64C700319938 /* TextFieldTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTVC.xib; sourceTree = "<group>"; };
+		268EA4202ABCAF8700A005C0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		268EA4222ABCB5B800A005C0 /* MyProfileTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyProfileTVC.xib; path = uia/Views/XibDesign/MyProfile/MyProfileTVC.xib; sourceTree = SOURCE_ROOT; };
+		269621422ABB0F7200407C52 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		269757712AC1A0EA00B086BE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		269B39A12AD3C67A00A2479A /* ScanListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListViewController.swift; sourceTree = "<group>"; };
+		269B39A42AD3C97B00A2479A /* ScanListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListTableViewCell.swift; sourceTree = "<group>"; };
+		269B39A52AD3C97B00A2479A /* ScanListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanListTableViewCell.xib; sourceTree = "<group>"; };
+		26A281F82AD4154700CEA181 /* DropdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownViewController.swift; sourceTree = "<group>"; };
+		26A281F92AD4154700CEA181 /* DropdownViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropdownViewController.xib; sourceTree = "<group>"; };
+		26A2FCE72AC159EC00D5B01B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		26A2FCE92AC16A1900D5B01B /* QrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrViewController.swift; sourceTree = "<group>"; };
+		26A2FCEB2AC16F1D00D5B01B /* InspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionViewController.swift; sourceTree = "<group>"; };
+		26A4D13B2ACFD51E008E70B1 /* InspectionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionTVC.swift; sourceTree = "<group>"; };
+		26A4D13C2ACFD51E008E70B1 /* InspectionTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionTVC.xib; sourceTree = "<group>"; };
+		26A4D1402AD023AA008E70B1 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		26A4D1412AD023AA008E70B1 /* LoaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoaderViewController.xib; sourceTree = "<group>"; };
+		26A4D1452AD0246C008E70B1 /* tools-7049_256.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "tools-7049_256.gif"; sourceTree = "<group>"; };
+		26A8CF1B2ACC2CD4005511BE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		26C11FA32AC3E67C008B5F55 /* FilterListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterListTableViewCell.swift; sourceTree = "<group>"; };
+		26C11FA42AC3E67C008B5F55 /* FilterListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterListTableViewCell.xib; sourceTree = "<group>"; };
+		26C902C92ABD6513000E2C19 /* TextViewTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTVC.swift; sourceTree = "<group>"; };
+		26C902CA2ABD6513000E2C19 /* TextViewTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTVC.xib; sourceTree = "<group>"; };
+		26C902CD2ABD6764000E2C19 /* ButtonTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTVC.swift; sourceTree = "<group>"; };
+		26C902CE2ABD6764000E2C19 /* ButtonTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTVC.xib; sourceTree = "<group>"; };
+		26C902D12ABD696A000E2C19 /* PasswordTextFieldTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldTVC.swift; sourceTree = "<group>"; };
+		26C902D22ABD696A000E2C19 /* PasswordTextFieldTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordTextFieldTVC.xib; sourceTree = "<group>"; };
+		26F2D6AA2ABC4D8F00EAC6E8 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263BDB272AB9B94D005A3B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262F8E342ABC1FCC009EDB7F /* XibDesign */ = {
+			isa = PBXGroup;
+			children = (
+				26A4D13F2ACFD53D008E70B1 /* Inspection */,
+				26C11FA72AC3E6BE008B5F55 /* Home */,
+				26F2D6AC2ABC4FE400EAC6E8 /* MyProfile */,
+				262F8E392ABC20D9009EDB7F /* CustomNavigationBar.xib */,
+				262F8E3D2ABC2622009EDB7F /* TopNavigationBar.xib */,
+			);
+			path = XibDesign;
+			sourceTree = "<group>";
+		};
+		262F8E352ABC1FD3009EDB7F /* XibSwiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				26A281EF2AD4114000CEA181 /* DropDwon */,
+				269B39A32AD3C94900A2479A /* Scan */,
+				26A4D1442AD023E7008E70B1 /* Loader */,
+				26C11F9E2AC3E632008B5F55 /* Home */,
+				26F2D6AD2ABC4FF200EAC6E8 /* MyProfile */,
+				262F8E362ABC201C009EDB7F /* CustomNavigationBar.swift */,
+				262F8E3B2ABC25FB009EDB7F /* TopNavigationBar.swift */,
+				26A4D1402AD023AA008E70B1 /* LoaderViewController.swift */,
+				26A4D1412AD023AA008E70B1 /* LoaderViewController.xib */,
+			);
+			path = XibSwiftFile;
+			sourceTree = "<group>";
+		};
+		263BDB212AB9B94D005A3B52 = {
+			isa = PBXGroup;
+			children = (
+				263BDB2C2AB9B94D005A3B52 /* uia */,
+				263BDB2B2AB9B94D005A3B52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		263BDB2B2AB9B94D005A3B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263BDB2A2AB9B94D005A3B52 /* uia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263BDB2C2AB9B94D005A3B52 /* uia */ = {
+			isa = PBXGroup;
+			children = (
+				263BDB5C2AB9BCC0005A3B52 /* Models */,
+				263BDB5B2AB9BCB8005A3B52 /* Views */,
+				263BDB5A2AB9BCB0005A3B52 /* Controllers */,
+				263BDB592AB9BCA7005A3B52 /* Services */,
+				263BDB582AB9BC9B005A3B52 /* Helpers */,
+				263BDB572AB9BC92005A3B52 /* Resources */,
+				263BDB562AB9BC88005A3B52 /* SupportingFiles */,
+				263BDB312AB9B94D005A3B52 /* ViewController.swift */,
+				263BDB332AB9B94D005A3B52 /* Main.storyboard */,
+				263BDB392AB9B950005A3B52 /* Assets.xcassets */,
+				263BDB3B2AB9B950005A3B52 /* LaunchScreen.storyboard */,
+				263BDB3E2AB9B950005A3B52 /* Info.plist */,
+				263BDB362AB9B94D005A3B52 /* uia.xcdatamodeld */,
+				263BDB8F2ABABEA7005A3B52 /* Roboto */,
+			);
+			path = uia;
+			sourceTree = "<group>";
+		};
+		263BDB562AB9BC88005A3B52 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				263BDB2D2AB9B94D005A3B52 /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		263BDB572AB9BC92005A3B52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				263BDB612AB9BD64005A3B52 /* Micros.swift */,
+				268EA4202ABCAF8700A005C0 /* Extension.swift */,
+				265A69FA2AC4403D00D3536F /* DropDown.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		263BDB582AB9BC9B005A3B52 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		263BDB592AB9BCA7005A3B52 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		263BDB5A2AB9BCB0005A3B52 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				263BDB5D2AB9BCEE005A3B52 /* LaunchScreenController.swift */,
+				263BDB5F2AB9BD35005A3B52 /* LoginController.swift */,
+				263BDB652AB9C3C2005A3B52 /* HomeVC.swift */,
+				263BDBAA2ABAEC9C005A3B52 /* SignUpVC.swift */,
+				269621422ABB0F7200407C52 /* ForgotPasswordVC.swift */,
+				26F2D6AA2ABC4D8F00EAC6E8 /* MyProfileVC.swift */,
+				26A2FCE72AC159EC00D5B01B /* MainTabBarController.swift */,
+				26A2FCE92AC16A1900D5B01B /* QrViewController.swift */,
+				26A2FCEB2AC16F1D00D5B01B /* InspectionViewController.swift */,
+				269757712AC1A0EA00B086BE /* SettingsViewController.swift */,
+				26A8CF1B2ACC2CD4005511BE /* NetworkManager.swift */,
+				2615EE7E2ACD8787000C893F /* NotificationViewController.swift */,
+				269B39A12AD3C67A00A2479A /* ScanListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		263BDB5B2AB9BCB8005A3B52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				262F8E342ABC1FCC009EDB7F /* XibDesign */,
+				262F8E352ABC1FD3009EDB7F /* XibSwiftFile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		263BDB5C2AB9BCC0005A3B52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2645AF5E2AD5632100240ABB /* MyProfileStaticData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		263BDB8F2ABABEA7005A3B52 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				263BDB902ABABEA7005A3B52 /* Roboto-Medium.ttf */,
+				263BDB912ABABEA7005A3B52 /* Roboto-Light.ttf */,
+				263BDB922ABABEA7005A3B52 /* Roboto-Regular.ttf */,
+				263BDB932ABABEA7005A3B52 /* Roboto-MediumItalic.ttf */,
+				263BDB942ABABEA7005A3B52 /* Roboto-ThinItalic.ttf */,
+				263BDB952ABABEA7005A3B52 /* Roboto-BoldItalic.ttf */,
+				263BDB962ABABEA7005A3B52 /* Roboto-LightItalic.ttf */,
+				263BDB972ABABEA7005A3B52 /* Roboto-Italic.ttf */,
+				263BDB982ABABEA7005A3B52 /* LICENSE.txt */,
+				263BDB992ABABEA7005A3B52 /* Roboto-BlackItalic.ttf */,
+				263BDB9A2ABABEA7005A3B52 /* Roboto-Bold.ttf */,
+				263BDB9B2ABABEA7005A3B52 /* Roboto-Thin.ttf */,
+				263BDB9C2ABABEA7005A3B52 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		269B39A32AD3C94900A2479A /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				269B39A42AD3C97B00A2479A /* ScanListTableViewCell.swift */,
+				269B39A52AD3C97B00A2479A /* ScanListTableViewCell.xib */,
+				2645AF562AD5212E00240ABB /* ReportTVC.swift */,
+				2645AF572AD5212E00240ABB /* ReportTVC.xib */,
+				2645AF5A2AD55A1400240ABB /* RejectButtonTVC.swift */,
+				2645AF5B2AD55A1400240ABB /* RejectButtonTVC.xib */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		26A281EF2AD4114000CEA181 /* DropDwon */ = {
+			isa = PBXGroup;
+			children = (
+				26A281F82AD4154700CEA181 /* DropdownViewController.swift */,
+				26A281F92AD4154700CEA181 /* DropdownViewController.xib */,
+			);
+			path = DropDwon;
+			sourceTree = "<group>";
+		};
+		26A4D13F2ACFD53D008E70B1 /* Inspection */ = {
+			isa = PBXGroup;
+			children = (
+				26A4D13C2ACFD51E008E70B1 /* InspectionTVC.xib */,
+			);
+			path = Inspection;
+			sourceTree = "<group>";
+		};
+		26A4D1442AD023E7008E70B1 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				26A4D1452AD0246C008E70B1 /* tools-7049_256.gif */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		26C11F9E2AC3E632008B5F55 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				26C11FA32AC3E67C008B5F55 /* FilterListTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		26C11FA72AC3E6BE008B5F55 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				26C11FA42AC3E67C008B5F55 /* FilterListTableViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		26F2D6AC2ABC4FE400EAC6E8 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				268EA4222ABCB5B800A005C0 /* MyProfileTVC.xib */,
+				267033DC2ABC64C700319938 /* TextFieldTVC.xib */,
+				2644E9AC2ABD51B7005E52FB /* DropdownTVC.xib */,
+				26C902CA2ABD6513000E2C19 /* TextViewTVC.xib */,
+				26C902CE2ABD6764000E2C19 /* ButtonTVC.xib */,
+				26C902D22ABD696A000E2C19 /* PasswordTextFieldTVC.xib */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		26F2D6AD2ABC4FF200EAC6E8 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				267033CF2ABC50F500319938 /* MyProfileTVC.swift */,
+				267033DB2ABC64C700319938 /* TextFieldTVC.swift */,
+				2644E9AB2ABD51B7005E52FB /* DropdownTVC.swift */,
+				26C902C92ABD6513000E2C19 /* TextViewTVC.swift */,
+				26C902CD2ABD6764000E2C19 /* ButtonTVC.swift */,
+				26C902D12ABD696A000E2C19 /* PasswordTextFieldTVC.swift */,
+				26A4D13B2ACFD51E008E70B1 /* InspectionTVC.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263BDB292AB9B94D005A3B52 /* uia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263BDB412AB9B950005A3B52 /* Build configuration list for PBXNativeTarget "uia" */;
+			buildPhases = (
+				263BDB262AB9B94D005A3B52 /* Sources */,
+				263BDB272AB9B94D005A3B52 /* Frameworks */,
+				263BDB282AB9B94D005A3B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uia;
+			productName = uia;
+			productReference = 263BDB2A2AB9B94D005A3B52 /* uia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263BDB222AB9B94D005A3B52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					263BDB292AB9B94D005A3B52 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 263BDB252AB9B94D005A3B52 /* Build configuration list for PBXProject "uia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263BDB212AB9B94D005A3B52;
+			productRefGroup = 263BDB2B2AB9B94D005A3B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263BDB292AB9B94D005A3B52 /* uia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263BDB282AB9B94D005A3B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B39A72AD3C97B00A2479A /* ScanListTableViewCell.xib in Resources */,
+				263BDBA72ABABEA7005A3B52 /* Roboto-Bold.ttf in Resources */,
+				263BDBA52ABABEA7005A3B52 /* LICENSE.txt in Resources */,
+				26C11FA62AC3E67C008B5F55 /* FilterListTableViewCell.xib in Resources */,
+				263BDBA22ABABEA7005A3B52 /* Roboto-BoldItalic.ttf in Resources */,
+				262F8E3E2ABC2622009EDB7F /* TopNavigationBar.xib in Resources */,
+				268EA4232ABCB5B800A005C0 /* MyProfileTVC.xib in Resources */,
+				2645AF5D2AD55A1400240ABB /* RejectButtonTVC.xib in Resources */,
+				263BDB9F2ABABEA7005A3B52 /* Roboto-Regular.ttf in Resources */,
+				263BDBA32ABABEA7005A3B52 /* Roboto-LightItalic.ttf in Resources */,
+				263BDB9D2ABABEA7005A3B52 /* Roboto-Medium.ttf in Resources */,
+				263BDB3D2AB9B950005A3B52 /* LaunchScreen.storyboard in Resources */,
+				2644E9AE2ABD51B7005E52FB /* DropdownTVC.xib in Resources */,
+				263BDBA62ABABEA7005A3B52 /* Roboto-BlackItalic.ttf in Resources */,
+				26A281FB2AD4154700CEA181 /* DropdownViewController.xib in Resources */,
+				263BDBA82ABABEA7005A3B52 /* Roboto-Thin.ttf in Resources */,
+				26A4D13E2ACFD51E008E70B1 /* InspectionTVC.xib in Resources */,
+				263BDB9E2ABABEA7005A3B52 /* Roboto-Light.ttf in Resources */,
+				262F8E3A2ABC20D9009EDB7F /* CustomNavigationBar.xib in Resources */,
+				263BDBA12ABABEA7005A3B52 /* Roboto-ThinItalic.ttf in Resources */,
+				26C902CC2ABD6513000E2C19 /* TextViewTVC.xib in Resources */,
+				2645AF592AD5212E00240ABB /* ReportTVC.xib in Resources */,
+				263BDBA92ABABEA7005A3B52 /* Roboto-Black.ttf in Resources */,
+				26A4D1432AD023AA008E70B1 /* LoaderViewController.xib in Resources */,
+				263BDBA02ABABEA7005A3B52 /* Roboto-MediumItalic.ttf in Resources */,
+				26C902D42ABD696A000E2C19 /* PasswordTextFieldTVC.xib in Resources */,
+				26C902D02ABD6764000E2C19 /* ButtonTVC.xib in Resources */,
+				263BDB3A2AB9B950005A3B52 /* Assets.xcassets in Resources */,
+				26A4D1462AD0246C008E70B1 /* tools-7049_256.gif in Resources */,
+				263BDBA42ABABEA7005A3B52 /* Roboto-Italic.ttf in Resources */,
+				263BDB352AB9B94D005A3B52 /* Main.storyboard in Resources */,
+				267033DE2ABC64C700319938 /* TextFieldTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263BDB262AB9B94D005A3B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268EA4212ABCAF8700A005C0 /* Extension.swift in Sources */,
+				26A4D13D2ACFD51E008E70B1 /* InspectionTVC.swift in Sources */,
+				26C902D32ABD696A000E2C19 /* PasswordTextFieldTVC.swift in Sources */,
+				26A2FCE82AC159EC00D5B01B /* MainTabBarController.swift in Sources */,
+				26F2D6AB2ABC4D8F00EAC6E8 /* MyProfileVC.swift in Sources */,
+				263BDBAB2ABAEC9C005A3B52 /* SignUpVC.swift in Sources */,
+				263BDB322AB9B94D005A3B52 /* ViewController.swift in Sources */,
+				26C902CB2ABD6513000E2C19 /* TextViewTVC.swift in Sources */,
+				26C902CF2ABD6764000E2C19 /* ButtonTVC.swift in Sources */,
+				2645AF5C2AD55A1400240ABB /* RejectButtonTVC.swift in Sources */,
+				265A69FB2AC4403D00D3536F /* DropDown.swift in Sources */,
+				262F8E3C2ABC25FB009EDB7F /* TopNavigationBar.swift in Sources */,
+				2615EE7F2ACD8788000C893F /* NotificationViewController.swift in Sources */,
+				26A2FCEA2AC16A1900D5B01B /* QrViewController.swift in Sources */,
+				263BDB662AB9C3C2005A3B52 /* HomeVC.swift in Sources */,
+				26A281FA2AD4154700CEA181 /* DropdownViewController.swift in Sources */,
+				2644E9AD2ABD51B7005E52FB /* DropdownTVC.swift in Sources */,
+				263BDB2E2AB9B94D005A3B52 /* AppDelegate.swift in Sources */,
+				262F8E372ABC201C009EDB7F /* CustomNavigationBar.swift in Sources */,
+				267033D12ABC50F500319938 /* MyProfileTVC.swift in Sources */,
+				26A2FCEC2AC16F1D00D5B01B /* InspectionViewController.swift in Sources */,
+				263BDB382AB9B94D005A3B52 /* uia.xcdatamodeld in Sources */,
+				269621432ABB0F7200407C52 /* ForgotPasswordVC.swift in Sources */,
+				263BDB5E2AB9BCEE005A3B52 /* LaunchScreenController.swift in Sources */,
+				26C11FA52AC3E67C008B5F55 /* FilterListTableViewCell.swift in Sources */,
+				2645AF582AD5212E00240ABB /* ReportTVC.swift in Sources */,
+				269B39A22AD3C67A00A2479A /* ScanListViewController.swift in Sources */,
+				267033DD2ABC64C700319938 /* TextFieldTVC.swift in Sources */,
+				269B39A62AD3C97B00A2479A /* ScanListTableViewCell.swift in Sources */,
+				26A4D1422AD023AA008E70B1 /* LoaderViewController.swift in Sources */,
+				26A8CF1C2ACC2CD4005511BE /* NetworkManager.swift in Sources */,
+				263BDB622AB9BD64005A3B52 /* Micros.swift in Sources */,
+				2645AF5F2AD5632100240ABB /* MyProfileStaticData.swift in Sources */,
+				263BDB602AB9BD35005A3B52 /* LoginController.swift in Sources */,
+				269757722AC1A0EA00B086BE /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		263BDB332AB9B94D005A3B52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263BDB342AB9B94D005A3B52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		263BDB3B2AB9B950005A3B52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263BDB3C2AB9B950005A3B52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		263BDB3F2AB9B950005A3B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		263BDB402AB9B950005A3B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		263BDB422AB9B950005A3B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VRZP5LHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symrna.uia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263BDB432AB9B950005A3B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VRZP5LHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symrna.uia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263BDB252AB9B94D005A3B52 /* Build configuration list for PBXProject "uia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263BDB3F2AB9B950005A3B52 /* Debug */,
+				263BDB402AB9B950005A3B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263BDB412AB9B950005A3B52 /* Build configuration list for PBXNativeTarget "uia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263BDB422AB9B950005A3B52 /* Debug */,
+				263BDB432AB9B950005A3B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		263BDB362AB9B94D005A3B52 /* uia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				263BDB372AB9B94D005A3B52 /* uia.xcdatamodel */,
+			);
+			currentVersion = 263BDB372AB9B94D005A3B52 /* uia.xcdatamodel */;
+			path = uia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 263BDB222AB9B94D005A3B52 /* Project object */;
+}
